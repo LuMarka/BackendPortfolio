@@ -7,7 +7,7 @@
 ------------
 -  Este **portfolio** fué realizado como** proyecto final integrador** a presentar en el curso **#YoProgramo** de **Argentina Programa.**
 
-- Se trata de una **API REST** realizada utilizando Maven v 4.0.0, que es una herramienta de software para la gestión y construcción de proyectos Java,  el Framework Spring Boot que utiliza el patrón MVC (Modelo Vista Controlador) para la lógica y MySQL para persistencia de datos. 
+- Se trata de una **API REST** realizada utilizando [Maven](https://maven.apache.org/) v 4.0.0, que es una herramienta de software para la gestión y construcción de proyectos [Java](https://www.java.com/es/),  el Framework [Spring Boot](https://start.spring.io/) que utiliza el patrón MVC (Modelo Vista Controlador) para la lógica y [MySQL](https://dev.mysql.com/downloads/workbench/) para persistencia de datos.  
 1. Maven utiliza  archivo POM.xml (Proyect Object Model) para dentro de él especificar las diferentes dependencias o librerías que serán necesarias incluir en el proyecto que se esté desarrollando. En este caso algunas de estas dependencias utilizadas son:
 		Spring Boot Dev Tools
 		Spring Web
@@ -16,7 +16,7 @@
 		Validation
 		Lombok
 		Json Web Token
-1. Proyecto desarrollado en Java en su versión 18.
+1. Proyecto desarrollado en [Java](https://www.java.com/es/) en su versión 18.
 
 1. Para este tipo de aplicaciones, Spring Boot posee un modelo de Arquitectura Multicapa: Controller, Repository o DAO, Model o Entity, DTO y Service.
 
@@ -46,7 +46,7 @@ Para ejecutar la aplicación en un entorno local se deben realizar los siguiente
 
 ### ✅ Cómo utilizar la API
 ------------
-En este caso se utilizó  plataforma de API Postman para realizar las operaciones AMB (o CRUD) en nuestra base de datos MySQL, además de autenticar y autorizar usuarios a través de JWT (JSON Web Token), trabajando en conjunto con nuestro Frontend a través de peticiones HTTP.
+En este caso se utilizó  plataforma de API [Postman](https://www.postman.com/) para realizar las operaciones AMB (o CRUD) en nuestra base de datos MySQL, además de autenticar y autorizar usuarios a través de JWT (JSON Web Token), trabajando en conjunto con nuestro Frontend a través de peticiones HTTP.
 
 
 ### 📩Contacto
