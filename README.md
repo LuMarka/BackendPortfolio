@@ -20,7 +20,8 @@
 
 1. Para este tipo de aplicaciones, Spring Boot posee un modelo de Arquitectura Multicapa: Controller, Repository o DAO, Model o Entity, DTO y Service.
 
--  La capa correspondiente al backend del presente proyecto integrador fue subido a [HEROKU](https://www.heroku.com/) y se utilizó el servicio de nube [Clever Cloud](https://www.clever-cloud.com/) (para la Base de Datos MYSQL)
+-  La capa correspondiente al backend del presente proyecto integrador fue subido a [HEROKU](https://www.heroku.com/) y se utilizó el servicio de nube [Clever Cloud](https://www.clever-cloud.com/) (para la Base de Datos MYSQL).
+-  **Actualización**: la capa correspondiente al backend ha sido migrada a [RAILWAY](https://railway.app/).
 
 -En el presente repositorio se incluye, como un archivo en formato .pdf, el Diagrama Entidad - Relación (DER) utilizado en la Base de Datos Relacional y que posteriormente se traduce en las Entidades del Backend. Debajo se adjunta una previsualización del mismo:
 [![DER](https://i.ibb.co/0FKVyVh/DER.png "DER")](https://i.ibb.co/0FKVyVh/DER.png "DER")
@@ -34,6 +35,7 @@ Para ejecutar la aplicación en un entorno local se deben realizar los siguiente
 
  2.Instalar las dependencias de Maven utilizando nuestro IDE preferido o a través del comando:
 		mvn install
+
 3.Crear y configurar el archivo application.properties en src/main/resources/
 
 		spring.jpa.hibernate.ddl-auto = update
