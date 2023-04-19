@@ -5,7 +5,7 @@
 
 ### 📝 Descripción
 ------------
--  Este **portfolio** fué realizado como** proyecto final integrador** a presentar en el curso **#YoProgramo** de **Argentina Programa.**
+-  Este **portfolio** fué realizado como **proyecto final integrador** a presentar en el curso **#YoProgramo** de **Argentina Programa.**
 
 - Se trata de una **API REST** realizada utilizando [Maven](https://maven.apache.org/) v 4.0.0, que es una herramienta de software para la gestión y construcción de proyectos [Java](https://www.java.com/es/),  el Framework [Spring Boot](https://start.spring.io/) que utiliza el patrón MVC (Modelo Vista Controlador) para la lógica y [MySQL](https://dev.mysql.com/downloads/workbench/) para persistencia de datos.  
 1. Maven utiliza  archivo POM.xml (Proyect Object Model) para dentro de él especificar las diferentes dependencias o librerías que serán necesarias incluir en el proyecto que se esté desarrollando. En este caso algunas de estas dependencias utilizadas son:
